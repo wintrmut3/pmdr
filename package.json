@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "pmdr",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal pomodoro timer with sound cues, status and time display.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "nothing yet",
   "keywords": [
     "Electron",
     "quick",
@@ -14,9 +14,12 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "James Xu",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^7.1.2"
+  },
+  "dependencies": {
+    "v8-compile-cache": "^2.1.0"
   }
 }
