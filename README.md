@@ -8,11 +8,11 @@ npm start
 ```
 Inside the main folder of this repository to run.
 ## To Do
-* Add different sounds for break and work start (DONE)
+* Add different sounds for break and work start
 * Add levels - Some sort of gamification and local progress saving
 * Custom time intervals and cycle lengths
 * Track time spent
-* Background gradients (DONE)
+* Background gradients
 * Soft background fade
 * Custom colour schemes
 * Settings menu
