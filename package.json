@@ -1,25 +1,21 @@
 {
   "name": "pmdr",
-  "version": "1.0.0",
+  "productName": "pmdr_",
+  "version": "0.1.0",
   "description": "A minimal pomodoro timer with sound cues, status and time display.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": "nothing yet",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
   "author": "James Xu",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.2"
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1"
   },
   "dependencies": {
+    "electron-store": "^5.1.0",
     "v8-compile-cache": "^2.1.0"
   }
 }

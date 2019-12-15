@@ -2,6 +2,7 @@
 const {app, BrowserWindow} = require('electron', 'v8-compile-cache')
 const path = require('path')
 
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -9,8 +10,8 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 300,
-    height: 300,
+    width: 600,
+    height: 400,
     frame: false,
     transparent: false,
     webPreferences: {
